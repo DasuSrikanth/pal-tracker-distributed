@@ -19,6 +19,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Steeltoe.Security.Authentication.CloudFoundry;
  using Microsoft.AspNetCore.Authentication;
  using Microsoft.AspNetCore.Http;
+ using Steeltoe.Extensions.Configuration.ConfigServer;
 
 namespace AllocationsServer
 {
