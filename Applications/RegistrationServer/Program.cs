@@ -18,7 +18,6 @@ namespace RegistrationServer
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .UseCloudHosting()
-               // .AddCloudFoundry()
                .AddConfigServer()
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
